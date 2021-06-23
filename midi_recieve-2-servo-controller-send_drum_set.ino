@@ -1,5 +1,4 @@
-/* Midi Glock - Mike Cook April 2008
-    based on code by kuki
+/* based on code by kuki
    -----------------
    listen for MIDI serial data, and fire solenoids for individual notes
 
@@ -8,6 +7,8 @@
   HARDWARE NOTE:
   The MIDI Socket is connected to arduino RX through an opto-isolator to invert the MIDI signal and seperate the circuits of individual instruments.
   Connect the 8 solenoids to pin2 to pin9 on your arduino and pin 13 to the drive enabling monostable.
+  
+  modified to use 16-channel servo controller (Adafruit PCA9685 16-Channel Servo Driver)
 
   ####################################################################################################################################################
 
